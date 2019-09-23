@@ -1,0 +1,16 @@
+﻿<Window x:Class="AsyncTest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AsyncTest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Name="mainGrid" Margin="0,10,0,0">
+        <TextBox Name="uriTextBox" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="545" Grid.ColumnSpan="2"/>
+        <Button Name="urtButton" Content="取得" HorizontalAlignment="Left" Margin="560,10,0,0" VerticalAlignment="Top" Width="75" Height="23" Click="UrtButton_Click"/>
+        <ScrollViewer Name="mainScroll" HorizontalAlignment="Left" Height="361" Margin="10,38,0,0" VerticalAlignment="Top" Width="772">
+           <Grid Name="scrollGrid" /> 
+        </ScrollViewer>
+    </Grid>
+</Window>
